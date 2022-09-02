@@ -17,7 +17,7 @@ export default function Home() {
 					name="description"
 					content="Full-stack developer & Systems/Server administrator in New York City."
 				/>
-				<link rel="icon" href="/favicon.ico" />
+				{/* <link rel="icon" href="/favicon.ico" /> */}
 				<link rel="stylesheet" href="https://use.typekit.net/nqj1arh.css" />
 			</Head>
 
