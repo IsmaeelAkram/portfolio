@@ -13,7 +13,7 @@ const projects = [
 	},
 	{
 		type: 'Experience',
-		title: 'Full Stack Developer',
+		title: 'Lead Full Stack Developer',
 		where: 'Prestige Cars of Chipping Norton',
 		when: 'Aug 2022',
 		description:
