@@ -17,7 +17,7 @@ const projects = [
 		where: 'Prestige Cars of Chipping Norton',
 		when: 'Aug 2022',
 		description:
-			'Created a one-page website for Prestige Cars, the best chauffeur service in the Cotswolds. The website backend has a messaging function that alerts their drivers whenever new requests are submitted, and allows their staff to change the website content as needed.Created a one-page website for Prestige Cars, the best chauffeur service in the Cotswolds. The website backend has a messaging function that alerts their drivers whenever new requests are submitted, and allows their staff to change the website content as needed.',
+			'Created a one-page website for Prestige Cars, the best chauffeur service in the Cotswolds. The website backend has a messaging function that alerts their drivers whenever new requests are submitted, and allows their staff to change the website content as needed.',
 		technologies: 'Cascading Style Sheets (CSS), HTML, Next.js, React.js, REST APIs, JavaScript',
 	},
 	{
