@@ -18,7 +18,6 @@ export default function Home() {
 					content="Full-stack developer & Systems/Server administrator in New York City."
 				/>
 				{/* <link rel="icon" href="/favicon.ico" /> */}
-				<link rel="stylesheet" href="https://use.typekit.net/nqj1arh.css" />
 			</Head>
 
 			<div className="container">
