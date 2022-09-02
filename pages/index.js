@@ -12,7 +12,7 @@ export default function Home() {
 		<div>
 			<Head>
 				<title>ISMAEEL AKRAM — FULL STACK DEV / SYSTEM ADMIN</title>
-				<metsa name="title" content="ISMAEEL AKRAM — FULL STACK DEV / SYSTEM ADMIN" />
+				<meta name="title" content="ISMAEEL AKRAM — FULL STACK DEV / SYSTEM ADMIN" />
 				<meta
 					name="description"
 					content="Full-stack developer & Systems/Server administrator in New York City."
