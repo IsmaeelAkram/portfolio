@@ -76,7 +76,7 @@ function ProjectCard({ title, where, when, description, technologies, type }) {
 export default function Experience() {
 	return (
 		<div className="experience">
-			<ul className={styles.list}>
+			<ul className={styles.list} id="projects">
 				{projects.map((project, index) => (
 					<li key={index}>
 						<ProjectCard key={index} {...project} />
