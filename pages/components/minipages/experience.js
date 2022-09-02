@@ -2,7 +2,7 @@ import styles from '../../../styles/experience.module.css';
 
 const projects = [
 	{
-		type: 'Project',
+		type: 'Experience',
 		title: 'Full Stack Developer // Systems Admin',
 		where: '867Crypto',
 		when: 'Aug 2021 — Dec 2021',
@@ -10,6 +10,15 @@ const projects = [
 			'Created the front-end web-app & complete back-end <em>infrastructure</em> on <em>Amazon Web Services (AWS)</em> for 867Crypto, a slot machine game with cryptocurrency prizes with over <em>15,000 active users</em>.',
 		technologies:
 			'React.js, Docker, AWS (EC2, Lightsail, RDS, and S3), Redis, MongoDB, MySQL, TailwindCSS, Flask, Python, Node.js, GitHub CI/CD, Atlassian',
+	},
+	{
+		type: 'Experience',
+		title: 'Full Stack Developer',
+		where: 'Prestige Cars of Chipping Norton',
+		when: 'Aug 2022',
+		description:
+			'Created a one-page website for Prestige Cars, the best chauffeur service in the Cotswolds. The website backend has a messaging function that alerts their drivers whenever new requests are submitted, and allows their staff to change the website content as needed.Created a one-page website for Prestige Cars, the best chauffeur service in the Cotswolds. The website backend has a messaging function that alerts their drivers whenever new requests are submitted, and allows their staff to change the website content as needed.',
+		technologies: 'Cascading Style Sheets (CSS), HTML, Next.js, React.js, REST APIs, JavaScript',
 	},
 	{
 		type: 'Project',
