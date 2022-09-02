@@ -26,16 +26,15 @@ const projects = [
 		where: 'IBM',
 		when: 'Aug 2021',
 		description:
-			'<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/A6627FJQTGJB" target="_blank" rel="noopener noreferrer">Show credential</a>',
+			'Certified by IBM in <em>Cloud Application Development</em> and <em>Systems Administration</em>.',
 		technologies: '',
 	},
 	{
 		type: 'Certification',
-		title: 'C++ Certified Associate Programmer Certification',
+		title: 'C++ Certified Associate Programmer',
 		when: 'July 2022',
 		where: '',
-		description:
-			'<a href="https://cppinstitute.org/cpa-c-certified-associate-programmer-certification" target="_blank" rel="noopener noreferrer">Learn more</a>',
+		description: 'Certified by CPA at an <em>intermediate level and familiarity of C++</em>.',
 		technologies: '',
 	},
 ];
