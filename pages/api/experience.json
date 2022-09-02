@@ -1,0 +1,23 @@
+[
+	{
+		"title": "Full-Stack Developer // Systems Admin",
+		"where": "867Crypto",
+		"when": "Aug '21 — Dec '21",
+		"description": "Created the front-end web-app & complete back-end <em>infrastructure</em> on <em>Amazon Web Services (AWS)</em> for 867Crypto, a slot machine game with cryptocurrency prizes with over <em>15,000 active users</em>.",
+		"technologies": "React.js, Docker, AWS (EC2, Lightsail, RDS, and S3), Redis, MongoDB, MySQL, TailwindCSS, Flask, Python, Node.js, GitHub CI/CD, Atlassian"
+	},
+	{
+		"title": "Full-Stack Developer // Systems Admin",
+		"where": "867Crypto",
+		"when": "Aug '21 — Dec '21",
+		"description": "Created the front-end web-app & complete back-end <em>infrastructure</em> on <em>Amazon Web Services (AWS)</em> for 867Crypto, a slot machine game with cryptocurrency prizes with over <em>15,000 active users</em>.",
+		"technologies": "React.js, Docker, AWS (EC2, Lightsail, RDS, and S3), Redis, MongoDB, MySQL, TailwindCSS, Flask, Python, Node.js, GitHub CI/CD, Atlassian"
+	},
+	{
+		"title": "Full-Stack Developer // Systems Admin",
+		"where": "867Crypto",
+		"when": "Aug '21 — Dec '21",
+		"description": "Created the front-end web-app & complete back-end <em>infrastructure</em> on <em>Amazon Web Services (AWS)</em> for 867Crypto, a slot machine game with cryptocurrency prizes with over <em>15,000 active users</em>.",
+		"technologies": "React.js, Docker, AWS (EC2, Lightsail, RDS, and S3), Redis, MongoDB, MySQL, TailwindCSS, Flask, Python, Node.js, GitHub CI/CD, Atlassian"
+	}
+]
