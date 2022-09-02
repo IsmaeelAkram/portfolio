@@ -120,6 +120,21 @@ ul.nav li:hover {
 }
 
 @media (max-width: 768px) {
+	header {
+		flex-direction: column;
+	}
+	.socials {
+		margin-left: 0;
+		margin-right: auto;
+	}
+	.socials a {
+		margin-left: 0;
+		margin-right: 15px;
+	}
+	.hero {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 	.container {
 		padding: 20px 0px 0px 20px;
 	}
