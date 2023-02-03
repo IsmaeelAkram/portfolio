@@ -3,7 +3,7 @@ import styles from '../../../styles/experience.module.css';
 const projects = [
 	{
 		type: 'Experience',
-		title: 'Lead Developer',
+		title: 'Full Stack Developer',
 		where: 'Smartbooks360',
 		when: 'Nov 2022 — Present',
 		description:
@@ -12,22 +12,22 @@ const projects = [
 	},
 	{
 		type: 'Experience',
-		title: 'Full Stack Developer // Systems Admin',
+		title: 'Full Stack Developer',
+		where: 'Prestige Cars of Chipping Norton',
+		when: 'Aug 2022',
+		description:
+			'Created a one-page website for Prestige Cars, the best chauffeur service in the Cotswolds. The website backend has a messaging function that alerts their drivers whenever new requests are submitted, and allows their staff to change the website content as needed.',
+		technologies: 'Next.js, React.js, HTML, CSS, REST APIs, JavaScript',
+	},
+	{
+		type: 'Experience',
+		title: 'Full Stack Engineer // Systems Admin',
 		where: '867Crypto',
 		when: 'Aug 2021 — Dec 2021',
 		description:
 			'Created the front-end web-app & complete back-end <em>infrastructure</em> on <em>Amazon Web Services (AWS)</em> for 867Crypto, a slot machine game with cryptocurrency prizes with over <em>15,000 active users</em>.',
 		technologies:
 			'React.js, Docker, AWS (EC2, Lightsail, RDS, and S3), Redis, MongoDB, MySQL, TailwindCSS, Flask, Python, Node.js, GitHub CI/CD, Atlassian',
-	},
-	{
-		type: 'Experience',
-		title: 'Lead Full Stack Developer',
-		where: 'Prestige Cars of Chipping Norton',
-		when: 'Aug 2022',
-		description:
-			'Created a one-page website for Prestige Cars, the best chauffeur service in the Cotswolds. The website backend has a messaging function that alerts their drivers whenever new requests are submitted, and allows their staff to change the website content as needed.',
-		technologies: 'Next.js, React.js, HTML, CSS, REST APIs, JavaScript',
 	},
 	{
 		type: 'Project',
@@ -47,23 +47,6 @@ const projects = [
 			'Working with like-minded students at Brooklyn Technical to create and manage the student-run social network! The Foundry is used for socializing, note-sharing, club organizing, etc.',
 		technologies: 'React.js, Google Cloud, Firebase, Google Workspace',
 	},
-	// {
-	// 	type: 'Certification',
-	// 	title: 'Cloud Application Development Specialization',
-	// 	where: 'IBM',
-	// 	when: 'Aug 2021',
-	// 	description:
-	// 		'Certified by IBM in <em>Cloud Application Development</em> and <em>Systems Administration</em>.',
-	// 	technologies: '',
-	// },
-	// {
-	// 	type: 'Certification',
-	// 	title: 'C++ Certified Associate Programmer',
-	// 	when: 'July 2022',
-	// 	where: '',
-	// 	description: 'Certified by CPA at an <em>intermediate level and familiarity of C++</em>.',
-	// 	technologies: '',
-	// },
 ];
 
 function ProjectCard({ title, where, when, description, technologies, type }) {
