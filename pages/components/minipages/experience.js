@@ -3,6 +3,15 @@ import styles from '../../../styles/experience.module.css';
 const projects = [
 	{
 		type: 'Experience',
+		title: 'Lead Developer',
+		where: 'Smartbooks360',
+		when: 'Nov 2022 — Present',
+		description:
+			'Working with Smartbooks360, an outsourced accounting and bookkeeping solution for small businesses, to create their completely redesigned online presence.<br/><br/>Here\'s a <a href="https://i.imgur.com/8bPIXii.png" target="_blank">sneak peek.</a>',
+		technologies: '',
+	},
+	{
+		type: 'Experience',
 		title: 'Full Stack Developer // Systems Admin',
 		where: '867Crypto',
 		when: 'Aug 2021 — Dec 2021',
@@ -30,22 +39,31 @@ const projects = [
 		technologies: 'Node.js, Git, Express.js',
 	},
 	{
-		type: 'Certification',
-		title: 'Cloud Application Development Specialization',
-		where: 'IBM',
-		when: 'Aug 2021',
-		description:
-			'Certified by IBM in <em>Cloud Application Development</em> and <em>Systems Administration</em>.',
-		technologies: '',
-	},
-	{
-		type: 'Certification',
-		title: 'C++ Certified Associate Programmer',
-		when: 'July 2022',
+		type: 'Project',
+		title: 'The Foundry',
 		where: '',
-		description: 'Certified by CPA at an <em>intermediate level and familiarity of C++</em>.',
-		technologies: '',
+		when: 'Jun 2020 — Jul 2022',
+		description:
+			'Working with like-minded students at Brooklyn Technical to create and manage the student-run social network! The Foundry is used for socializing, note-sharing, club organizing, etc.',
+		technologies: 'React.js, Google Cloud, Firebase, Google Workspace',
 	},
+	// {
+	// 	type: 'Certification',
+	// 	title: 'Cloud Application Development Specialization',
+	// 	where: 'IBM',
+	// 	when: 'Aug 2021',
+	// 	description:
+	// 		'Certified by IBM in <em>Cloud Application Development</em> and <em>Systems Administration</em>.',
+	// 	technologies: '',
+	// },
+	// {
+	// 	type: 'Certification',
+	// 	title: 'C++ Certified Associate Programmer',
+	// 	when: 'July 2022',
+	// 	where: '',
+	// 	description: 'Certified by CPA at an <em>intermediate level and familiarity of C++</em>.',
+	// 	technologies: '',
+	// },
 ];
 
 function ProjectCard({ title, where, when, description, technologies, type }) {

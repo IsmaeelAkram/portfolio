@@ -32,7 +32,14 @@ export default function Content() {
 					onClick={() => animateTo('experience')}
 					className={selectedPage === 'experience' ? 'active' : ''}
 				>
-					Experience
+					Experience / Projects
+				</li>
+				<li
+					onClick={() => {
+						window.open('/Resume.pdf', '_blank');
+					}}
+				>
+					Resumé
 				</li>
 			</ul>
 

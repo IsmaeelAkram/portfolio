@@ -1,15 +1,14 @@
 export default function About() {
 	return (
 		<div className="about">
+			<p>Full-stack developer & Systems/Server administrator in New York City.</p>
 			<p>
-				Full-stack developer & Systems/Server administrator in New York City. Experienced with
-				frontend development (JavaScript, HTML, CSS, React, React Native, Bootstrap, Tailwind),
-				backend development (Python, Flask, Node.js, Express, Go), and cloud computing (Linux, AWS,
-				DigitalOcean, MySQL, Redis).
+				Proficient in creating & managing client-side and server-side software, low-level
+				applications, cloud applications, networking, web/mobile app development.
 			</p>
-			<p className="available-for-work">
-				<strong>Available for remote freelance work at all times!</strong>
-			</p>
+			{/* <p className="available-for-work">
+				<strong>I'm available to work, contact me!</strong>
+			</p> */}
 		</div>
 	);
 }
