@@ -21,7 +21,7 @@ const projects = [
 	},
 	{
 		type: 'Experience',
-		title: 'Full Stack Engineer // Systems Admin',
+		title: 'Lead Full Stack Engineer // Systems Admin',
 		where: '867Crypto',
 		when: 'Aug 2021 — Dec 2021',
 		description:
