@@ -34,13 +34,13 @@ export default function Content() {
 				>
 					Experience / Projects
 				</li>
-				<li
+				{/* <li
 					onClick={() => {
 						window.open('/Resume.pdf', '_blank');
 					}}
 				>
 					Resumé
-				</li>
+				</li> */}
 			</ul>
 
 			<div className="content">
