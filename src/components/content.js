@@ -4,7 +4,7 @@ import { useState } from 'react';
 import About from './minipages/about';
 
 const pages = [
-	{ title: 'About me', id: 'about' },
+	{ title: 'About me', id: 'about', component: <About /> },
 	{ title: 'Experience', id: 'experience' },
 	{ title: 'Projects', id: 'projects' },
 	{ title: 'Blog', id: 'blog' },
@@ -12,7 +12,7 @@ const pages = [
 ];
 
 export default function Content() {
-	const [selected, setSelected] = useState('about');
+	const [selected, setSelected] = useState(pages[0]);
 	return (
 		<div className="w-full">
 			<div className="nav grid grid-cols-5 w-full">
@@ -21,18 +21,16 @@ export default function Content() {
 						<p
 							className={
 								'hover:text-white transition-all cursor-pointer ' +
-								(selected === page.id && '!text-white !font-bold')
+								(selected === page && '!text-white !font-bold')
 							}
-							onClick={() => setSelected(page.id)}
+							onClick={() => setSelected(page)}
 						>
 							{page.title}
 						</p>
 					</div>
 				))}
 			</div>
-			<div className="mt-10">
-				<About />
-			</div>
+			<div className="mt-10">{selected.component}</div>
 		</div>
 	);
 }

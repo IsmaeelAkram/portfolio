@@ -1,3 +1,4 @@
+import Badges from '@/components/badges';
 import Content from '@/components/content';
 import SocialIcon from '@/components/socialIcon';
 import Image from 'next/image';
@@ -27,23 +28,13 @@ export default function Home() {
 				<div className="col-span-6 flex justify-start items-start w-full h-full">
 					<Content />
 				</div>
-				<div className="col-span-2 flex justify-center items-center ">
+				<div className="col-span-2 flex justify-center items-center">
 					<div className="grid auto-rows-auto h-full">
 						<div className="flex justify-center items-center">
 							<img src="/IMG_6027.png" className="h-full my-image object-cover" />
 						</div>
-						<div className="flex justify-center items-center">
-							<div className="grid grid-cols-3 w-full gap-10">
-								<div className="flex justify-center items-center">
-									<img src="/ccna.png" className="w-full" />
-								</div>
-								<div className="flex justify-center items-center">
-									<img src="/ibm.png" className="w-full" />
-								</div>
-								<div className="flex justify-center items-center">
-									<img src="/aws-devops.png" className="w-full" />
-								</div>
-							</div>
+						<div className="flex justify-center items-center mt-2">
+							<Badges />
 						</div>
 					</div>
 				</div>
