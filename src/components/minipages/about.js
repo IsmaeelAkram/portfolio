@@ -18,7 +18,7 @@ export default function About() {
 				<h2>BROOKLYN COLLEGE</h2>
 			</div>
 			<div>
-				<h2 className="font-bold mt-5 mb-3">What I'm best at</h2>
+				<h2 className="font-bold mt-5 mb-3">What I&apos;m best at</h2>
 				<div className="grid grid-cols-5">
 					<div>
 						<p className="font-bold mb-1">Cloud:</p>
