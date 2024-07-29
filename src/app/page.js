@@ -27,13 +27,13 @@ export default function Home() {
 				<div className="col-span-6 flex justify-start items-start w-full h-full">
 					<Content />
 				</div>
-				<div className="col-span-2 flex justify-center items-center">
+				<div className="col-span-2 flex justify-center items-center ">
 					<div className="grid auto-rows-auto h-full">
-						<div className="flex justify-center items-start">
+						<div className="flex justify-center items-center">
 							<img src="/IMG_6027.png" className="h-full my-image object-cover" />
 						</div>
-						<div className="flex justify-center items-start">
-							<div className="grid grid-cols-3 w-full gap-10 mt-5 mb-5">
+						<div className="flex justify-center items-center">
+							<div className="grid grid-cols-3 w-full gap-10">
 								<div className="flex justify-center items-center">
 									<img src="/ccna.png" className="w-full" />
 								</div>
