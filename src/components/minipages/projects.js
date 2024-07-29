@@ -13,9 +13,9 @@ const cards = [
 		body: (
 			<p>
 				Revolutionizing the customer service experience, hotline.ai is an innovative AI solution
-				that's transforming the way businesses handle mobile hotlines. Leveraging cutting-edge AI
-				technology, this groundbreaking platform delivers a seamless, efficient experience for both
-				customers and companies. With its advanced conversational capabilities and data-driven
+				that&apos;s transforming the way businesses handle mobile hotlines. Leveraging cutting-edge
+				AI technology, this groundbreaking platform delivers a seamless, efficient experience for
+				both customers and companies. With its advanced conversational capabilities and data-driven
 				insights, hotline.ai is redefining the future of customer support.
 			</p>
 		),
