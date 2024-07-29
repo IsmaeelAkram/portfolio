@@ -2,10 +2,11 @@
 
 import { useState } from 'react';
 import About from './minipages/about';
+import Experience from './minipages/experience';
 
 const pages = [
 	{ title: 'About me', id: 'about', component: <About /> },
-	{ title: 'Experience', id: 'experience' },
+	{ title: 'Experience', id: 'experience', component: <Experience /> },
 	{ title: 'Projects', id: 'projects' },
 	{ title: 'Blog', id: 'blog' },
 	{ title: 'Résumé', id: 'resume' },
@@ -30,7 +31,7 @@ export default function Content() {
 					</div>
 				))}
 			</div>
-			<div className="mt-10">{selected.component}</div>
+			<div className="mt-10 w-full">{selected.component}</div>
 		</div>
 	);
 }

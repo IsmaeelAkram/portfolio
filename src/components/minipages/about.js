@@ -1,6 +1,6 @@
 export default function About() {
 	return (
-		<div className="w-full">
+		<>
 			<div className="flex flex-row justify-start items-center gap-8 mb-2">
 				<img src="laptop.png" className="emoji" />
 				<h2>FULL-STACK SOFTWARE DEVELOPER</h2>
@@ -82,6 +82,6 @@ export default function About() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }

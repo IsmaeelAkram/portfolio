@@ -24,16 +24,16 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="grid grid-cols-8 auto-cols-auto w-full mt-8">
+			<div className="grid grid-cols-8 auto-cols-auto w-full mt-8 gap-10">
 				<div className="col-span-6 flex justify-start items-start w-full h-full">
 					<Content />
 				</div>
 				<div className="col-span-2 flex justify-center items-center">
-					<div className="grid auto-rows-auto h-full">
+					<div className="grid auto-rows-auto">
 						<div className="flex justify-center items-center">
-							<img src="/IMG_6027.png" className="h-full my-image object-cover" />
+							<img src="/IMG_6027.png" className="w-full my-image object-cover" />
 						</div>
-						<div className="flex justify-center items-center mt-2">
+						<div className="flex justify-center items-center mt-4">
 							<Badges />
 						</div>
 					</div>
