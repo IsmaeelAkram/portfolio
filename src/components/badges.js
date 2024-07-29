@@ -25,6 +25,7 @@ export default function Badges() {
 					animate={{ translateY: 0, opacity: 1 }}
 					transition={{ duration: 0.8, delay: (1 / 8) * (i + 1) }}
 					className="group flex justify-center items-center "
+					key={i}
 				>
 					{badge.locked && (
 						<img
