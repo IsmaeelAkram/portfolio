@@ -5,13 +5,14 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
 	title: 'Ismaeel Akram | Full-stack dev & System admin',
+	// title: 'ISMAEEL AKRAM — FULL STACK DEV / SYSTEM ADMIN',
 	description:
 		'Full-stack developer & systems administrator in New York City. Welcome to my portfolio.',
 	openGraph: {
 		title: 'Ismaeel Akram | Full-stack dev & System admin',
 		description:
 			'Full-stack developer & systems administrator in New York City. Welcome to my portfolio.',
-		image: 'https://ismaeelakram.com/me.png',
+		images: [{ url: 'https://ismaeelakram.com/me.png' }],
 	},
 };
 
