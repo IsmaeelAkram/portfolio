@@ -9,6 +9,10 @@
   --card-bg: #1b1b1b;
 }
 
+.dark-text {
+  color: var(--dark-text);
+}
+
 body {
   background: url('/noise.png'), var(--background);
   color: var(--text-color);

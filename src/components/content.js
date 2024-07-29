@@ -4,12 +4,13 @@ import { useState } from 'react';
 import About from './minipages/about';
 import Experience from './minipages/experience';
 import { motion } from 'framer-motion';
+import Projects from './minipages/projects';
 
 const pages = [
 	{ title: 'About me', id: 'about', component: <About /> },
 	{ title: 'Experience', id: 'experience', component: <Experience /> },
-	{ title: 'Projects', id: 'projects' },
-	{ title: 'Blog', id: 'blog' },
+	{ title: 'Projects', id: 'projects', component: <Projects /> },
+	// { title: 'Blog', id: 'blog' },
 	{ title: 'Résumé', id: 'resume' },
 ];
 

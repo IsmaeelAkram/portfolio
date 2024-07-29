@@ -56,6 +56,13 @@ const cards = [
 					Developed a cloud messaging function to notify drivers of new requests and messages from
 					viewers local to <strong>their</strong> area.
 				</li>
+				<li>
+					Demonstrated technical proficiency and effective communication skills while executing the
+					project
+				</li>
+				<li>
+					Enabled improved customer experience and contributed to 40% increased business revenue
+				</li>
 			</ul>
 		),
 	},
