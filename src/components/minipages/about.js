@@ -1,6 +1,6 @@
 export default function About() {
 	return (
-		<>
+		<div className="w-full">
 			<div className="flex flex-row justify-start items-center gap-5">
 				<img src="laptop.png" className="h-full" />
 				<h2>FULL-STACK SOFTWARE DEVELOPER</h2>
@@ -19,7 +19,7 @@ export default function About() {
 			</div>
 			<div>
 				<h2 className="font-bold mt-5 mb-3">What I&apos;m best at</h2>
-				<div className="grid grid-cols-5">
+				<div className="grid grid-cols-5 w-full">
 					<div>
 						<p className="font-bold mb-1">Cloud:</p>
 						<ul className="list-disc list-inside">
@@ -76,12 +76,12 @@ export default function About() {
 							<li>MongoDB</li>
 							<li>Cassandra</li>
 							<li>Oracle</li>
-							<li>Oracle</li>
+							<li>Redis</li>
 							<li>DynamoDB</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }

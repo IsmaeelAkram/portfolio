@@ -23,8 +23,8 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="grid grid-cols-8 auto-cols-auto w-full h-full mt-8">
-				<div className="col-span-6 flex justify-start items-start">
+			<div className="grid grid-cols-8 auto-cols-auto w-full mt-8">
+				<div className="col-span-6 flex justify-start items-start w-full h-full">
 					<Content />
 				</div>
 				<div className="col-span-2 flex justify-center items-center">
@@ -33,7 +33,7 @@ export default function Home() {
 							<img src="/IMG_6027.png" className="h-full my-image object-cover" />
 						</div>
 						<div className="flex justify-center items-start">
-							<div className="grid grid-cols-3 w-full mt-8 gap-10">
+							<div className="grid grid-cols-3 w-full gap-10 mt-5 mb-5">
 								<div className="flex justify-center items-center">
 									<img src="/ccna.png" className="w-full" />
 								</div>
