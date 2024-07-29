@@ -82,7 +82,7 @@ export default function About() {
 							<motion.h3
 								initial={{ translateY: 30, opacity: 0 }}
 								animate={{ translateY: 0, opacity: 1 }}
-								transition={{ duration: 0.8, delay: (1 / 4) * headings.length }}
+								transition={{ duration: 0.8, delay: (1 / 8) * headings.length }}
 								className="font-bold mb-1"
 							>
 								{skill.title}:
@@ -92,7 +92,7 @@ export default function About() {
 									<motion.li
 										initial={{ translateY: 30, opacity: 0 }}
 										animate={{ translateY: 0, opacity: 1 }}
-										transition={{ duration: 0.8, delay: (1 / 4) * headings.length * (j + 1) }}
+										transition={{ duration: 0.8, delay: (1 / 8) * headings.length * (j + 1) }}
 										key={j}
 									>
 										{item}

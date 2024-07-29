@@ -30,7 +30,7 @@ export default function Badges() {
 					{badge.locked && (
 						<img
 							src="/cog.svg"
-							className="fixed z-20 group-hover:cursor-pointer group-hover:rotate-180 transition-all duration-500"
+							className="absolute z-20 group-hover:cursor-pointer group-hover:rotate-180 transition-all duration-500"
 						/>
 					)}
 					<img

@@ -82,4 +82,16 @@ li {
   border-radius: 25px;
 }
 
-.content {}
+.card ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.card ul li,
+p {
+  line-height: 155%;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
