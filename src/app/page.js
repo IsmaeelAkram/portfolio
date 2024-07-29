@@ -1,5 +1,6 @@
 import Badges from '@/components/badges';
 import Content from '@/components/content';
+import Logo from '@/components/logo';
 import SocialIcon from '@/components/socialIcon';
 import Image from 'next/image';
 
@@ -14,12 +15,12 @@ export default function Home() {
 		<div className="w-full h-screen p-10">
 			<div className="grid grid-cols-6 w-full">
 				<div className="flex justify-start items-center col-span-4 h-full">
-					<img src="/logo.svg" className="h-full" />
+					<Logo />
 				</div>
 				<div className="col-span-2">
 					<div className="flex flex-row justify-end items-center gap-5 h-full">
-						{socials.map((social) => (
-							<SocialIcon social={social} key={social} />
+						{socials.map((social, i) => (
+							<SocialIcon social={social} key={i} i={i} />
 						))}
 					</div>
 				</div>
