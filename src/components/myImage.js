@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function MyImage() {
 	const { width } = useWindowSize();
-	return width < 768 ? (
+	return width < 640 ? (
 		<></>
 	) : (
 		<motion.img
