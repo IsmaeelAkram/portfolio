@@ -18,6 +18,26 @@ const cards = [
 		),
 	},
 	{
+		title: 'Full-stack Developer',
+		company: { name: 'AR Recovery', url: 'https://arrecovery.uk', image: 'arrecovery.svg' },
+		date: 'Freelance',
+		body: (
+			<ul>
+				<li>
+					Designed and developed a business website for AR Vehicle Recovery, the go-to vehicle
+					recovery service in Oxfordshire, UK.
+				</li>
+				<li>
+					Developed a management system for the business to dispatch recovery, track vehicles, and
+					handle costs.
+				</li>
+				<li>
+					Developed a custom booking system to allow customers to book vehicle recovery services.
+				</li>
+			</ul>
+		),
+	},
+	{
 		title: 'Frontend Web Developer',
 		company: {
 			name: 'Smartbooks360',
@@ -101,17 +121,20 @@ const cards = [
 function Card({ data, i }) {
 	return (
 		<motion.div
-			className="card flex flex-col z-20"
+			className="card flex flex-col z-20 group cursor-pointer"
 			initial={{ translateY: 30, opacity: 0 }}
 			animate={{ translateY: 0, opacity: 1 }}
 			transition={{ duration: 0.8, delay: (1 / 8) * i }}
 		>
 			<div className="flex justify-center items-center py-5">
-				<img src={data.company.image} className="w-3/4" />
+				<img src={data.company.image} className="w-3/4 group-hover:scale-110 transition-all" />
 			</div>
 			<h2>{data.title}</h2>
 			<h4 className="mb-5">
-				@ <a href={data.company.url}>{data.company.name}</a>{' '}
+				@{' '}
+				<a href={data.company.url} target="_blank">
+					{data.company.name}
+				</a>{' '}
 				<span className="text-white">&bull;</span> {data.date}
 			</h4>
 			{data.body}

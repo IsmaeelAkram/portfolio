@@ -22,6 +22,7 @@ const imagesToPreload = [
 	'/prestigecars.svg',
 	'/867Casino.svg',
 	'/hotlineai.png',
+	'/arrecovery.svg',
 	'/ccna.png',
 	'/aws-devops.png',
 	'/ibm.png',
