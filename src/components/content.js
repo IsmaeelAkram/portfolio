@@ -17,7 +17,7 @@ export default function Content() {
 		<div>
 			<div className="nav grid grid-cols-5 w-full">
 				{pages.map((page) => (
-					<div className="flex justify-start items-center">
+					<div className="flex justify-start items-center" key={page.id}>
 						<p
 							className={
 								'hover:text-white transition-all cursor-pointer ' +
