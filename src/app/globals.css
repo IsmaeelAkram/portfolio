@@ -12,6 +12,7 @@
 body {
   background: var(--background);
   color: var(--text-color);
+  height: 100%;
 }
 
 *::selection {
@@ -80,3 +81,5 @@ li {
   background-color: var(--card-bg);
   border-radius: 25px;
 }
+
+.content {}

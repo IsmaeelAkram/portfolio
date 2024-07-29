@@ -31,7 +31,7 @@ export default function Content() {
 					</div>
 				))}
 			</div>
-			<div className="mt-10 w-full">{selected.component}</div>
+			<div className="my-10 w-full">{selected.component}</div>
 		</div>
 	);
 }
