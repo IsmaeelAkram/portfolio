@@ -16,9 +16,26 @@ export const metadata = {
 	},
 };
 
+const imagesToPreload = [
+	'/me.png',
+	'/smartbooks360.svg',
+	'/prestigecars.svg',
+	'/867Casino.svg',
+	'/hotlineai.png',
+	'/ccna.png',
+	'/aws-devops.png',
+	'/ibm.png',
+	'/noise.png',
+];
+
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			<head>
+				{imagesToPreload.map((src) => (
+					<link key={src} rel="preload" as="image" href={src}></link>
+				))}
+			</head>
 			<body className={inter.className}>{children}</body>
 		</html>
 	);
