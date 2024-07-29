@@ -70,7 +70,7 @@ const cards = [
 function Card({ data }) {
 	return (
 		<div className="card flex flex-col">
-			<div className="flex justify-center items-center py-10">
+			<div className="flex justify-center items-center py-5">
 				<img src={data.company.image} className="w-3/4" />
 			</div>
 			<h2>{data.title}</h2>

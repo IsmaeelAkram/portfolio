@@ -22,7 +22,7 @@ export default function Content() {
 					<motion.div
 						initial={{ translateY: 30, opacity: 0 }}
 						animate={{ translateY: 0, opacity: 1 }}
-						transition={{ duration: 0.8, delay: (1 / 8) * i }}
+						transition={{ duration: 0.8, delay: (1 / 8) * (i + 1) }}
 						className="flex justify-start items-center w-full"
 						key={page.id}
 					>
@@ -31,7 +31,13 @@ export default function Content() {
 								'hover:text-white transition-all cursor-pointer ' +
 								(selected === page && '!text-white !font-bold')
 							}
-							onClick={() => setSelected(page)}
+							onClick={() => {
+								if (page.id == 'resume') {
+									window.open('Resume.pdf');
+									return;
+								}
+								setSelected(page);
+							}}
 						>
 							{page.title}
 						</p>
