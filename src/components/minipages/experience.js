@@ -121,7 +121,7 @@ function Card({ data, i }) {
 
 export default function Experience() {
 	return (
-		<div className="grid grid-cols-2 auto-rows-auto gap-5">
+		<div className="grid sm:grid-cols-2 auto-rows-auto gap-5">
 			{cards.map((card, i) => (
 				<Card key={i} data={card} i={i} />
 			))}

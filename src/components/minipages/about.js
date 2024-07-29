@@ -76,9 +76,9 @@ export default function About() {
 				>
 					Skills
 				</motion.h2>
-				<div className="grid grid-cols-5 w-full">
+				<div className="grid grid-cols-2 sm:grid-cols-5 w-full">
 					{skills.map((skill, i) => (
-						<div key={i}>
+						<div key={i} className="mb-5 sm:mb-0">
 							<motion.h3
 								initial={{ translateY: 30, opacity: 0 }}
 								animate={{ translateY: 0, opacity: 1 }}

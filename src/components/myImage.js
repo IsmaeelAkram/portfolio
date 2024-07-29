@@ -1,8 +1,12 @@
 'use client';
+import useWindowSize from '@/utils/useWindowSize';
 import { motion } from 'framer-motion';
 
 export default function MyImage() {
-	return (
+	const { width } = useWindowSize();
+	return width < 1024 ? (
+		<></>
+	) : (
 		<motion.img
 			initial={{ translateY: 30, opacity: 0 }}
 			animate={{ translateY: 0, opacity: 1 }}
