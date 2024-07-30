@@ -34,7 +34,13 @@
   --text-color: #fff;
   --dark-text: rgba(255, 255, 255, 0.40);
   --card-bg: #1b1b1b;
+
+  /* https://scrollbar.app */
+  --sb-track-color: #00000000;
+  --sb-thumb-color: #ffffff;
+  --sb-size: 7px;
 }
+
 
 .dark-text {
   color: var(--dark-text);
@@ -44,6 +50,28 @@ body {
   background: url('/noise.png'), var(--background);
   color: var(--text-color);
   height: 100%;
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 25px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 25px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
 
 *::selection {
