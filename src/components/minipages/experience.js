@@ -48,13 +48,14 @@ const cards = [
 		body: (
 			<ul>
 				<li>
-					Collaborated with Smartbooks360, the best online bookkeeping solution for small
-					businesses, to create their refreshed online presence.
+					Designed and developed a modern business website for Smartbooks360, an online outsourced
+					bookkeeping solution. Helped increase business revenue and leads.
 				</li>
 				<li>
-					Designed and developed a website frontend using React, TailwindCSS, and Framer Motion.
+					Developed a management system to handle costs, track clients, and automate tax
+					calculations.
 				</li>
-				<li>Website is hosted on edge, to cater correctly to international clients.</li>
+				<li>Managed cloud services on edge, to cater correctly to international clients.</li>
 			</ul>
 		),
 	},
