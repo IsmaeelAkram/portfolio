@@ -34,8 +34,8 @@ const skills = [
 		title: 'Frontend',
 		items: [
 			'Next.js',
-			'React.js',
 			'Tailwind.css',
+			'WebGL',
 			'React Native',
 			'REST/WebSockets',
 			'Figma',
