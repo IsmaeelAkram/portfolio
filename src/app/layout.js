@@ -1,8 +1,8 @@
-import { Inter } from 'next/font/google';
+import { Red_Hat_Display } from 'next/font/google';
 import './globals.css';
 import { headers } from 'next/headers';
 
-const inter = Inter({ subsets: ['latin'] });
+const redhat = Red_Hat_Display({ subsets: ['latin'] });
 
 export async function generateMetadata({ params, searchParams }) {
 	const headersList = headers();
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
 					<link key={src} rel="preload" as="image" href={src}></link>
 				))}
 			</head>
-			<body className={inter.className}>{children}</body>
+			<body className={redhat.className}>{children}</body>
 		</html>
 	);
 }
