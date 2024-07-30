@@ -5,19 +5,19 @@ import { motion } from 'framer-motion';
 const headings = [
 	{
 		emoji: 'laptop.png',
-		text: 'FULL-STACK SOFTWARE DEVELOPER',
+		text: 'Full-Stack Software Developer',
 	},
 	{
 		emoji: 'plug.png',
-		text: 'SYSTEMS ADMINISTRATOR',
+		text: 'Systems Administrator',
 	},
 	{
 		emoji: 'statue-of-liberty.png',
-		text: 'NEW YORK CITY',
+		text: 'New York City',
 	},
 	{
 		emoji: 'grad-cap.png',
-		text: 'BROOKLYN COLLEGE',
+		text: 'Brooklyn College',
 	},
 ];
 
