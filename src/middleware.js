@@ -4,8 +4,9 @@ const pages = ['about', 'experience', 'projects'];
 
 // This function can be marked `async` if using `await` inside
 export function middleware(request) {
+	request.headers.set('pathname', request.nextUrl.pathname);
 	if (pages.includes(request.nextUrl.pathname.slice(1))) {
-		return NextResponse.rewrite(new URL('/', request.url));
+		return NextResponse.rewrite(new URL('/', request.url), { headers: request.headers });
 	}
 }
 

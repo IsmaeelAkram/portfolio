@@ -8,7 +8,7 @@ import Projects from './minipages/projects';
 import { usePathname, useRouter } from 'next/navigation';
 
 const pages = [
-	{ title: 'About me', id: 'about', component: <About /> },
+	{ title: 'About me', id: '', component: <About /> },
 	{ title: 'Experience', id: 'experience', component: <Experience /> },
 	{ title: 'Projects', id: 'projects', component: <Projects /> },
 	// { title: 'Blog', id: 'blog' },
@@ -17,9 +17,14 @@ const pages = [
 
 export default function Content() {
 	const pathname = usePathname();
+	const router = useRouter();
 	const [selected, setSelected] = useState(
 		pathname === '/' ? pages[0] : pages.find((page) => page.id === pathname.slice(1))
 	);
+
+	useEffect(() => {
+		setSelected(pages.find((page) => page.id === pathname.slice(1)));
+	}, [pathname]);
 
 	return (
 		<div className="w-full">
@@ -42,7 +47,7 @@ export default function Content() {
 									window.open('Resume.pdf');
 									return;
 								}
-								setSelected(page);
+								router.push('/' + page.id);
 							}}
 						>
 							{page.title}
