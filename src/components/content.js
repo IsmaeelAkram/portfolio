@@ -1,10 +1,11 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import About from './minipages/about';
 import Experience from './minipages/experience';
 import { motion } from 'framer-motion';
 import Projects from './minipages/projects';
+import { usePathname, useRouter } from 'next/navigation';
 
 const pages = [
 	{ title: 'About me', id: 'about', component: <About /> },
@@ -15,7 +16,11 @@ const pages = [
 ];
 
 export default function Content() {
-	const [selected, setSelected] = useState(pages[0]);
+	const pathname = usePathname();
+	const [selected, setSelected] = useState(
+		pathname === '/' ? pages[0] : pages.find((page) => page.id === pathname.slice(1))
+	);
+
 	return (
 		<div className="w-full">
 			<div className="nav grid grid-cols-4 w-full">
