@@ -41,7 +41,7 @@
 }
 
 body {
-  background: url('/noise.png'), var(--background);
+  background: url('/noise.webp'), var(--background);
   color: var(--text-color);
   height: 100%;
 }

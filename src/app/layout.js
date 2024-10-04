@@ -1,8 +1,8 @@
-import { Red_Hat_Display } from 'next/font/google';
+import { Roboto_Mono } from 'next/font/google';
 import './globals.css';
 import { headers } from 'next/headers';
 
-const redhat = Red_Hat_Display({ subsets: ['latin'] });
+const robotoMono = Roboto_Mono({ subsets: ['latin'] });
 
 export async function generateMetadata({ params, searchParams }) {
 	const headersList = headers();
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
 					<link key={src} rel="preload" as="image" href={src}></link>
 				))}
 			</head>
-			<body className={redhat.className}>{children}</body>
+			<body className={robotoMono.className}>{children}</body>
 		</html>
 	);
 }

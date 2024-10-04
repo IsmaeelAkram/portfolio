@@ -5,11 +5,11 @@ import { motion } from 'framer-motion';
 const headings = [
 	{
 		emoji: 'laptop.png',
-		text: 'Full-Stack Software Developer',
+		text: 'Full-stack Software Engineer',
 	},
 	{
 		emoji: 'plug.png',
-		text: 'Systems Administrator',
+		text: 'Cloud Systems Administrator',
 	},
 	{
 		emoji: 'statue-of-liberty.png',
@@ -17,7 +17,7 @@ const headings = [
 	},
 	{
 		emoji: 'grad-cap.png',
-		text: 'Brooklyn College',
+		text: 'Class of 2024',
 	},
 ];
 
