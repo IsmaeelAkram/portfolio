@@ -59,34 +59,34 @@ const cards = [
 			</ul>
 		),
 	},
-	{
-		title: 'Frontend Web Developer',
-		company: {
-			name: 'Prestige Cars',
-			url: 'https://prestigecarschippingnorton.com',
-			image: 'prestigecars.svg',
-		},
-		date: 'Freelance',
-		body: (
-			<ul>
-				<li>
-					Collaborated with Prestige Cars of Chipping Norton, a chauffeur service in the Cotswolds
-					to establish and enhance their online presence
-				</li>
-				<li>
-					Developed a cloud messaging function to notify drivers of new requests and messages from
-					viewers local to <strong>their</strong> area.
-				</li>
-				<li>
-					Demonstrated technical proficiency and effective communication skills while executing the
-					project
-				</li>
-				<li>
-					Enabled improved customer experience and contributed to 40% increased business revenue
-				</li>
-			</ul>
-		),
-	},
+	// {
+	// 	title: 'Frontend Web Developer',
+	// 	company: {
+	// 		name: 'Prestige Cars',
+	// 		url: 'https://prestigecarschippingnorton.com',
+	// 		image: 'prestigecars.svg',
+	// 	},
+	// 	date: 'Freelance',
+	// 	body: (
+	// 		<ul>
+	// 			<li>
+	// 				Collaborated with Prestige Cars of Chipping Norton, a chauffeur service in the Cotswolds
+	// 				to establish and enhance their online presence
+	// 			</li>
+	// 			<li>
+	// 				Developed a cloud messaging function to notify drivers of new requests and messages from
+	// 				viewers local to <strong>their</strong> area.
+	// 			</li>
+	// 			<li>
+	// 				Demonstrated technical proficiency and effective communication skills while executing the
+	// 				project
+	// 			</li>
+	// 			<li>
+	// 				Enabled improved customer experience and contributed to 40% increased business revenue
+	// 			</li>
+	// 		</ul>
+	// 	),
+	// },
 	{
 		title: 'Full-stack Developer & Linux Administrator',
 		company: { name: 'Outer Labs', url: 'https://outerlabs.studio', image: '867Casino.svg' },
