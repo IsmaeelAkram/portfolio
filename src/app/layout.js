@@ -54,7 +54,11 @@ export default function RootLayout({ children }) {
 					<link key={src} rel="preload" as="image" href={src}></link>
 				))}
 			</head>
-			<body className={robotoMono.className}>{children}</body>
+			<body
+			// className={robotoMono.className}
+			>
+				{children}
+			</body>
 		</html>
 	);
 }

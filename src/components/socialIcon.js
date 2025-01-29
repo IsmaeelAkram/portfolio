@@ -11,7 +11,7 @@ export default function SocialIcon({ social, i }) {
 		>
 			<img
 				src={`/${social.src}.svg`}
-				className="w-3/5 sm:w-full sm:h-1/2 hover:opacity-50 hover:cursor-pointer transition-all"
+				className="w-3/5 sm:w-4/5 sm:h-1/2 hover:opacity-50 hover:cursor-pointer transition-all"
 				onClick={() => window.open(social.href)}
 			/>
 		</motion.div>

@@ -12,7 +12,7 @@ export default function MyImage() {
 			animate={{ translateY: 0, opacity: 1 }}
 			transition={{ duration: 0.8, delay: 1 / 5 }}
 			src="/me.png"
-			className="w-full my-image object-cover"
+			className="w-fit my-image object-cover"
 		/>
 	);
 }

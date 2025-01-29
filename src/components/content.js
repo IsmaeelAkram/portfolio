@@ -27,14 +27,14 @@ export default function Content() {
 	}, [pathname]);
 
 	return (
-		<div className="w-full">
-			<div className="nav grid grid-cols-4 w-full">
+		<div className="w-full h-full">
+			<div className="nav grid grid-cols-4 w-full mb-5">
 				{pages.map((page, i) => (
 					<motion.div
 						initial={{ translateY: 30, opacity: 0 }}
 						animate={{ translateY: 0, opacity: 1 }}
 						transition={{ duration: 0.8, delay: (1 / 8) * (i + 1) }}
-						className="flex justify-center sm:justify-start items-center w-full"
+						className="flex justify-center sm:justify-start items-center w-full h-full"
 						key={page.id}
 					>
 						<p
@@ -55,7 +55,7 @@ export default function Content() {
 					</motion.div>
 				))}
 			</div>
-			<div className="mb-0 sm:mb-10 mt-5 sm:mt-10 w-full">{selected.component}</div>
+			<div className="w-full h-[90%]">{selected.component}</div>
 		</div>
 	);
 }
