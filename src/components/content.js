@@ -34,7 +34,7 @@ export default function Content() {
 						initial={{ translateY: 30, opacity: 0 }}
 						animate={{ translateY: 0, opacity: 1 }}
 						transition={{ duration: 0.8, delay: (1 / 8) * (i + 1) }}
-						className="flex justify-center sm:justify-start items-center w-full h-full"
+						className="flex justify-center sm:justify-start items-center w-full h-full nav-link"
 						key={page.id}
 					>
 						<p

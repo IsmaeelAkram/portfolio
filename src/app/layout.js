@@ -23,11 +23,11 @@ export async function generateMetadata({ params, searchParams }) {
 		title: title,
 		// title: 'ISMAEEL AKRAM — FULL STACK DEV / SYSTEM ADMIN',
 		description:
-			'Full-stack developer & systems administrator in New York City. Welcome to my portfolio.',
+			'Full-stack developer & Cloud DevOps Engineer in New York City. Welcome to my portfolio.',
 		openGraph: {
 			title: title,
 			description:
-				'Full-stack developer & systems administrator in New York City. Welcome to my portfolio.',
+				'Full-stack developer & Cloud DevOps Engineer in New York City. Welcome to my portfolio.',
 			images: [{ url: 'https://ismaeelakram.com/me.png' }],
 		},
 	};
