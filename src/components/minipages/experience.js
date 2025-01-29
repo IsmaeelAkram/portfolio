@@ -89,7 +89,7 @@ const cards = [
 	// 	),
 	// },
 	{
-		title: 'Full-stack Developer & Linux Administrator',
+		title: 'Full-stack Developer & DevOps Engineer',
 		company: { name: 'Outer Labs', url: 'https://outerlabs.studio', image: '867Casino.svg' },
 		date: 'Freelance',
 		body: (

@@ -14,14 +14,13 @@ export async function generateMetadata({ params, searchParams }) {
 	} else if (pathname === '/projects') {
 		title = 'Projects | Ismaeel Akram';
 	} else if (pathname === '/') {
-		title = 'Ismaeel Akram | Full-stack dev & System admin';
+		title = 'Ismaeel Akram | Full-stack dev & DevOps Engineer';
 	} else {
-		title = 'Ismaeel Akram | Full-stack dev & System admin';
+		title = 'Ismaeel Akram | Full-stack dev & DevOps Engineer';
 	}
 
 	return {
 		title: title,
-		// title: 'ISMAEEL AKRAM — FULL STACK DEV / SYSTEM ADMIN',
 		description:
 			'Full-stack developer & Cloud DevOps Engineer in New York City. Welcome to my portfolio.',
 		openGraph: {
