@@ -22,7 +22,6 @@ const cards = [
 	// 	),
 	// 	technologies: 'Node.js, Git, Express.js',
 	// },
-
 	{
 		title: 'LTP (Local Time Protocol)',
 		company: {
@@ -63,7 +62,7 @@ const cards = [
 				testing, Hawkeye demonstrated impressive scalability, collecting over 2 million links,
 				scanning 24,000+ pages, and identifying 7,600+ unique keywords in just 3 hours. With
 				real-time statistics and treemap visualizations, Hawkeye provides deep insights into web
-				data diversity, making it a powerful tool for web analysis and research.
+				data diversity.
 			</p>
 		),
 	},
@@ -83,7 +82,26 @@ const cards = [
 				hosted on a VPS or via services like ngrok, allows attackers to execute commands or
 				predefined scripts (e.g., retrieving the victim&apos;s public IP or triggering scare
 				tactics) on the target machine. With its silent operation and ability to blend into other
-				programs, Trojark is a powerful yet discreet tool for remote access and control.
+				programs, Trojark is a discreet researching tool for remote access and control.
+			</p>
+		),
+	},
+	{
+		title: 'C++ Graphing Calculator',
+		company: {
+			name: 'GitHub',
+			url: 'https://github.com/IsmaeelAkram/GraphingCalculator',
+			image:
+				'https://raw.githubusercontent.com/IsmaeelAkram/GraphingCalculator/master/screenshot.png',
+		},
+		body: (
+			<p>
+				<strong>GraphingCalculator</strong> is a powerful graphing tool written in C++ using SFML
+				for graphics rendering and TinyExpr++ for mathematical expression parsing. Designed for both
+				Windows and UNIX/Linux systems, it allows users to visualize multiple equations
+				simultaneously by simply separating them with spaces (e.g., <code>calc x x^2 sin(x)</code>).
+				Customizable settings like window dimensions, font size, and rendering precision are defined
+				in <code>constants.h</code>, making it adaptable to various use cases.
 			</p>
 		),
 	},
@@ -101,9 +119,7 @@ const cards = [
 				hashing algorithms like MD5, SHA1, SHA256, and more, while allowing users to define custom
 				alphabets for brute-force cracking. It features auto-detection of hash types, an optional
 				visualization mode for real-time cracking insights, and extensibility for adding custom
-				algorithms. Whether you&apos;re a security enthusiast, penetration tester, or just exploring
-				hash cracking, Jason provides a fast, user-friendly, and customizable solution for all your
-				hash-cracking needs.
+				algorithms.
 			</p>
 		),
 	},
