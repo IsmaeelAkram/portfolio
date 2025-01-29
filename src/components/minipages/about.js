@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import MyImage from '../myImage';
 import Badges from '../badges';
+import useWindowSize from '@/utils/useWindowSize';
 
 const headings = [
 	{
@@ -70,9 +71,10 @@ const skills = [
 ];
 
 export default function About() {
+	const { width } = useWindowSize();
 	return (
 		<div className="grid grid-cols-8 grid-rows-auto h-full">
-			<div className="col-span-6 flex flex-col">
+			<div className="sm:col-span-6 col-span-8 flex flex-col">
 				<div className="flex flex-col gap-2">
 					{headings.map((heading, i) => (
 						<motion.div
@@ -130,16 +132,18 @@ export default function About() {
 					</div>
 				</div>
 			</div>
-			<div className="sm:col-span-2 flex justify-start items-center">
-				<div className="grid auto-rows-auto">
-					<div className="flex justify-center items-center">
-						<MyImage />
-					</div>
-					<div className="flex justify-center items-center my-4">
-						<Badges />
+			{width > 640 && (
+				<div className="sm:col-span-2 flex justify-start items-center">
+					<div className="grid auto-rows-auto">
+						<div className="flex justify-center items-center">
+							<MyImage />
+						</div>
+						<div className="flex justify-center items-center my-4">
+							<Badges />
+						</div>
 					</div>
 				</div>
-			</div>
+			)}
 		</div>
 	);
 }
