@@ -13,6 +13,8 @@ export async function generateMetadata({ params, searchParams }) {
 		title = 'Experience | Ismaeel Akram';
 	} else if (pathname === '/projects') {
 		title = 'Projects | Ismaeel Akram';
+	} else if (pathname === '/blog') {
+		title = 'Blog | Ismaeel Akram';
 	} else if (pathname === '/') {
 		title = 'Ismaeel Akram | Full-stack dev & DevOps Engineer';
 	} else {

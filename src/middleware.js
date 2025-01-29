@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const pages = ['', 'experience', 'projects'];
+const pages = ['', 'experience', 'projects', 'blog'];
 
 // This function can be marked `async` if using `await` inside
 export function middleware(request) {

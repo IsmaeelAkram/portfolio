@@ -6,12 +6,13 @@ import Experience from './minipages/experience';
 import { motion } from 'framer-motion';
 import Projects from './minipages/projects';
 import { usePathname, useRouter } from 'next/navigation';
+import Blog from './minipages/blog';
 
 const pages = [
 	{ title: 'About me', id: '', component: <About /> },
 	{ title: 'Experience', id: 'experience', component: <Experience /> },
 	{ title: 'Projects', id: 'projects', component: <Projects /> },
-	// { title: 'Blog', id: 'blog' },
+	{ title: 'Blog', id: 'blog', component: <Blog /> },
 	{ title: 'Résumé', id: 'resume' },
 ];
 
@@ -28,7 +29,7 @@ export default function Content() {
 
 	return (
 		<div className="w-full h-full">
-			<div className="nav grid grid-cols-4 w-full mb-5">
+			<div className="nav grid grid-cols-5 w-full mb-5">
 				{pages.map((page, i) => (
 					<motion.div
 						initial={{ translateY: 30, opacity: 0 }}
