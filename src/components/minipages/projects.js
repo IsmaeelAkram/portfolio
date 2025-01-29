@@ -79,9 +79,9 @@ const cards = [
 				PyInstaller, Trojark establishes a socket connection to a hardcoded server IP on port 9258,
 				requiring no authentication beyond an initial verification message. The server, which can be
 				hosted on a VPS or via services like ngrok, allows attackers to execute commands or
-				predefined scripts (e.g., retrieving the victim's public IP or triggering scare tactics) on
-				the target machine. With its silent operation and ability to blend into other programs,
-				Trojark is a powerful yet discreet tool for remote access and control.
+				predefined scripts (e.g., retrieving the victim&apos;s public IP or triggering scare
+				tactics) on the target machine. With its silent operation and ability to blend into other
+				programs, Trojark is a powerful yet discreet tool for remote access and control.
 			</p>
 		),
 	},
@@ -99,8 +99,8 @@ const cards = [
 				hashing algorithms like MD5, SHA1, SHA256, and more, while allowing users to define custom
 				alphabets for brute-force cracking. It features auto-detection of hash types, an optional
 				visualization mode for real-time cracking insights, and extensibility for adding custom
-				algorithms. Whether you're a security enthusiast, penetration tester, or just exploring hash
-				cracking, Jason provides a fast, user-friendly, and customizable solution for all your
+				algorithms. Whether you&apos;re a security enthusiast, penetration tester, or just exploring
+				hash cracking, Jason provides a fast, user-friendly, and customizable solution for all your
 				hash-cracking needs.
 			</p>
 		),
