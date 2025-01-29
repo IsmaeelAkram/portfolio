@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 export default function Card({ data, i }) {
 	return (
 		<motion.div
-			className="card flex flex-col z-20 group cursor-pointer"
+			className="card flex flex-col z-20 group"
 			initial={{ translateY: 30, opacity: 0 }}
 			animate={{ translateY: 0, opacity: 1 }}
 			transition={{ duration: 0.8, delay: (1 / 8) * i }}
@@ -11,7 +11,7 @@ export default function Card({ data, i }) {
 				<div className="flex justify-center items-center py-5">
 					<img
 						src={data.company.image}
-						className="w-full group-hover:scale-110 transition-all rounded-lg"
+						className="w-full group-hover:scale-105 transition-all rounded-lg"
 					/>
 				</div>
 			)}
@@ -21,7 +21,11 @@ export default function Card({ data, i }) {
 				<a href={data.company.url} target="_blank">
 					{data.company.name}
 				</a>{' '}
-				<span className="text-white">&bull;</span> {data.date}
+				{data.date && (
+					<>
+						<span className="text-white">&bull;</span> {data.date}
+					</>
+				)}
 			</h4>
 			{data.body}
 		</motion.div>
