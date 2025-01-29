@@ -33,15 +33,16 @@ const cards = [
 		},
 		body: (
 			<p>
-				<strong>LTP (Local Time Protocol)</strong> is a lightweight network protocol designed for
-				time synchronization across machines. Using port 2, a master server distributes the correct
-				time to slave servers upon request, ensuring accurate timekeeping. The protocol supports
-				various request types, including <code>DATETIME</code>, <code>DATE</code>, <code>TIME</code>
-				, and granular components like <code>HOUR</code>, <code>MINUTE</code>, and{' '}
-				<code>NANOSECOND</code>. With a maximum request size of just 12 bytes, LTP is efficient and
-				easy to implement, making it ideal for systems requiring precise time synchronization.
-				Whether for distributed systems or networked applications, LTP provides a simple and
-				reliable solution for time management.
+				<strong>LTP (Local Time Protocol)</strong> is a lightweight, Golang-based network protocol
+				designed for precise time synchronization across machines. Using port 2, a master server
+				distributes the correct time to slave servers upon request, ensuring accurate timekeeping.
+				The protocol supports various request types, including <code>DATETIME</code>,{' '}
+				<code>DATE</code>, <code>TIME</code>, and granular components like <code>HOUR</code>,{' '}
+				<code>MINUTE</code>, and <code>NANOSECOND</code>. With a maximum request size of just 12
+				bytes, LTP is efficient, fast, and easy to implement, making it ideal for systems requiring
+				reliable time synchronization. Built in Golang, it leverages the language's concurrency and
+				performance features to deliver a robust and scalable solution for time management in
+				distributed systems.
 			</p>
 		),
 	},
