@@ -39,8 +39,8 @@ const cards = [
 				<code>DATE</code>, <code>TIME</code>, and granular components like <code>HOUR</code>,{' '}
 				<code>MINUTE</code>, and <code>NANOSECOND</code>. With a maximum request size of just 12
 				bytes, LTP is efficient, fast, and easy to implement, making it ideal for systems requiring
-				reliable time synchronization. Built in Golang, it leverages the language's concurrency and
-				performance features to deliver a robust and scalable solution for time management in
+				reliable time synchronization. Built in Golang, it leverages the language&apos;s concurrency
+				and performance features to deliver a robust and scalable solution for time management in
 				distributed systems.
 			</p>
 		),
