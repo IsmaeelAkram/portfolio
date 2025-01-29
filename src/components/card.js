@@ -8,7 +8,7 @@ export default function Card({ data, i }) {
 			transition={{ duration: 0.8, delay: (1 / 8) * i }}
 		>
 			{data.company.image && (
-				<div className="flex justify-center items-center py-5">
+				<div className="flex justify-center items-center mb-5">
 					<img
 						src={data.company.image}
 						className="w-full group-hover:scale-105 transition-all rounded-lg"
