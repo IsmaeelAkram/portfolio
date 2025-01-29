@@ -5,35 +5,26 @@ import Card from '../card';
 const cards = [
 	{
 		title: 'Lead App Developer',
-		company: { name: 'Outer Labs', url: 'https://outerlabs.studio', image: 'outerlabs.svg' },
+		company: { name: 'Outer Labs Studio', url: 'https://outerlabs.studio', image: 'outerlabs.svg' },
 		date: "Nov '23 - Present",
 		body: (
 			<ul>
-				<li>Working closely with clients at our design studio.</li>
 				<li>
-					Developing websites, mobile apps, and all kinds of private and proprietary software.
-				</li>
-				<li>Managing private and cloud server infrastructure.</li>
-				<li>Ensuring enterprise-grade secure solutions for new and established businesses.</li>
-			</ul>
-		),
-	},
-	{
-		title: 'Full-stack Developer',
-		company: { name: 'AR Recovery', url: 'https://arrecovery.uk', image: 'arrecovery.svg' },
-		date: 'Freelance',
-		body: (
-			<ul>
-				<li>
-					Designed and developed a business website for AR Vehicle Recovery, the go-to vehicle
-					recovery service in Oxfordshire, UK.
+					Leading the development and maintenance of websites, mobile applications, business tools,
+					and proprietary software for diverse clients, collaborating closely with a team of 4
+					developers.
 				</li>
 				<li>
-					Developed a management system for the business to dispatch recovery, track vehicles, and
-					handle costs.
+					Plan and manage on-premise and AWS cloud server infrastructure, delivering scalable
+					solutions for startups and established businesses.
 				</li>
 				<li>
-					Developed a custom booking system to allow customers to book vehicle recovery services.
+					Implemented serverless microservices, reducing server costs by 82% and improving API
+					response times by 51%.
+				</li>
+				<li>
+					Contributing to the studio’s success, earning 3 industry awards and generating six-figure
+					profits.
 				</li>
 			</ul>
 		),
@@ -41,79 +32,79 @@ const cards = [
 	{
 		title: 'Frontend Web Developer',
 		company: {
-			name: 'Smartbooks360',
+			name: 'SmartBooks360',
 			url: 'https://smartbooks360.com',
 			image: 'smartbooks360.svg',
 		},
-		date: 'Freelance',
+		date: 'Jan 2024 - Present',
 		body: (
 			<ul>
 				<li>
-					Designed and developed a modern business website for Smartbooks360, an online outsourced
-					bookkeeping solution. Helped increase business revenue and leads.
+					Designed, developed, and maintaining a modern, responsive website for SmartBooks360, an
+					online bookkeeping solution, resulting in a 36% increase in revenue and lead generation.
 				</li>
 				<li>
-					Developed a management system to handle costs, track clients, and automate tax
-					calculations.
+					Built a comprehensive management system to streamline cost tracking, client management,
+					and automated expense calculations for 100+ clients.
 				</li>
-				<li>Managed cloud services on edge, to cater correctly to international clients.</li>
+				<li>
+					Optimized global accessibility by managing Google Cloud services on edge, ensuring
+					seamless performance for international users.
+				</li>
 			</ul>
 		),
 	},
-	// {
-	// 	title: 'Frontend Web Developer',
-	// 	company: {
-	// 		name: 'Prestige Cars',
-	// 		url: 'https://prestigecarschippingnorton.com',
-	// 		image: 'prestigecars.svg',
-	// 	},
-	// 	date: 'Freelance',
-	// 	body: (
-	// 		<ul>
-	// 			<li>
-	// 				Collaborated with Prestige Cars of Chipping Norton, a chauffeur service in the Cotswolds
-	// 				to establish and enhance their online presence
-	// 			</li>
-	// 			<li>
-	// 				Developed a cloud messaging function to notify drivers of new requests and messages from
-	// 				viewers local to <strong>their</strong> area.
-	// 			</li>
-	// 			<li>
-	// 				Demonstrated technical proficiency and effective communication skills while executing the
-	// 				project
-	// 			</li>
-	// 			<li>
-	// 				Enabled improved customer experience and contributed to 40% increased business revenue
-	// 			</li>
-	// 		</ul>
-	// 	),
-	// },
 	{
-		title: 'Full-stack Developer & DevOps Engineer',
-		company: { name: 'Outer Labs', url: 'https://outerlabs.studio', image: '867Casino.svg' },
-		date: 'Freelance',
+		title: 'Full Stack Developer',
+		company: {
+			name: 'AR Recovery',
+			url: 'https://arrecovery.uk',
+			image: 'arrecovery.svg',
+		},
+		date: 'Summer 2024',
 		body: (
 			<ul>
 				<li>
-					Worked closely with clients to lead the development of 867 Crypto, a cryptocurrency-based
-					slot machine game that grew to 15,000 active users.
+					Designed and developed a professional business website for AR Vehicle Recovery, a leading
+					vehicle recovery service in Oxfordshire.
 				</li>
 				<li>
-					Built, managed, and scaled resilient enterprise server infrastructure (across the US,
-					Europe, and South Asia) on AWS. Utilized AWS CloudFormation, Elastic Compute Cloud (EC2),
-					Lambda, Elastic Beanstalk, Elastic Container Service (ECS), S3, Redis, and MongoDB.
+					Created a robust management system to facilitate vehicle tracking, cost management, and
+					recovery dispatch operations.
 				</li>
 				<li>
-					Created a secure and reliable cryptocurrency payment system for players to enter and
-					manage wagers, and receive rewards based on gameplay.
+					Designed a booking platform that allowed customers to schedule vehicle recovery services
+					online, increasing user engagement by ~60% and receiving positive feedback from 93% of
+					surveyed customers.
+				</li>
+			</ul>
+		),
+	},
+	{
+		title: 'Lead Developer & Linux Systems Administrator',
+		company: {
+			name: 'Outer Labs',
+			url: 'https://outerlabs.studio',
+			image: '867Casino.svg',
+		},
+		date: 'Aug 2021 - Feb 2022',
+		body: (
+			<ul>
+				<li>
+					Led the development of 867 Casino, a slot machine game that achieved 15,000 active users,
+					showcasing expertise in full-stack development and cloud computing.
 				</li>
 				<li>
-					Created a modern game interface using React, Redux, TailwindCSS, and Framer Motion to
-					communicate with our game servers using REST, GraphQL, and Socket.IO (WebSockets).
+					Designed, deployed, and scaled resilient global server infrastructure on AWS, ensuring
+					high availability and performance.
 				</li>
 				<li>
-					Demonstrated a strong skill set in full-stack development, cloud computing, and server
-					administration.
+					Engineered a modern game interface using React, TailwindCSS, and Framer Motion, integrated
+					with REST APIs and WebSockets for seamless server communication.
+				</li>
+				<li>
+					Demonstrated proficiency in server administration, cloud architecture, and delivering
+					high-quality user experiences.
 				</li>
 			</ul>
 		),
