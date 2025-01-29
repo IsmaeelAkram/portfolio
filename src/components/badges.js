@@ -33,14 +33,16 @@ export default function Badges() {
 					{badge.locked && (
 						<img
 							src="/cog.svg"
-							className="absolute z-20 group-hover:cursor-pointer group-hover:rotate-180 transition-all duration-500"
+							className={
+								(badge.locked && 'opacity-80') +
+								' absolute z-20 group-hover:cursor-pointer group-hover:rotate-180 transition-all duration-500 shadow-xl'
+							}
 						/>
 					)}
 					<a href={badge.url} className="border-none hover:border-none" target="_blank">
 						<img
 							src={badge.src}
 							className={
-								(badge.locked && 'opacity-40') +
 								' w-full z-10 group-hover:cursor-pointer group-hover:scale-110 transition-all'
 							}
 						/>
