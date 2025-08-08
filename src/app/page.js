@@ -17,9 +17,9 @@ export default function Home() {
       <p className="font-serif text-[40px]">
         My website is under construction.
       </p>
-      <a href="/Resume.pdf" className="font-serif !text-[20px]">
-        Here is my résumé
-      </a>
+      // <a href="/Resume.pdf" className="font-serif !text-[20px]">
+      //   Here is my résumé
+      // </a>
     </div>
   );
   return (
